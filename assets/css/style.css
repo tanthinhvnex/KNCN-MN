@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "POPPINS", Roboto, "Helvetica Neue", Arial, "Noto Sans",
+        "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+        "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+/* Common */
+a {
+    text-decoration: none;
+}
+.content_1 {
+    background: #fff;
+}
+.content_2 {
+    background: rgb(0, 150, 200);
+}
+.sub_content {
+    width: 1100px;
+    max-width: calc(100% - 30px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Header */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.navbar .logo {
+    max-width: 100px;
+    max-height: 120px;
+}
+.navbar ul {
+    display: flex;
+    margin-left: 50px;
+}
+
+.navbar ul a {
+    padding: 8px 14px;
+    font-weight: 650;
+    font-size: 1.8rem;
+    color: #4f5361;
+}
+.navbar ul a:hover {
+    text-decoration: underline;
+}
+
+.navbar .action {
+    margin-left: auto;
+}
+.navbar .action-btn {
+    display: inline-block;
+    min-width: 98px;
+    background: #e6f0ff;
+    border-radius: 12px;
+    font-weight: 700;
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 18px 16px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.navbar .action-btn:hover {
+    text-decoration: underline;
+}
+.navbar .action {
+    font-size: 2.2rem;
+}
+.navbar .bell {
+    padding-right: 10px;
+    color: #000;
+}
+.navbar .message {
+    padding-right: 10px;
+    color: #000;
+}
+
+/* hero */
+/* .hero {
+    background-image: url(../img/hero.jpg);
+} */
+.hero .hero-content {
+    display: flex;
+    height: 100vh;
+}
+.hero .display {
+    margin: 60px auto 0;
+    width: 100vw;
+}
+.hero .header {
+    display: flex;
+    padding-bottom: 10px;
+}
+.hero .sub-header {
+    color: #fff;
+    font-size: 8rem;
+    font-weight: 500;
+    margin: auto;
+    text-decoration: underline;
+}
+.hero .desc {
+    color: #fff;
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.hero .sub-desc {
+    margin: auto;
+    font-size: 4rem;
+    font-weight: 40px;
+}
+.hero .search {
+    display: flex;
+}
+.hero .sub-search {
+    display: flex;
+    margin: auto;
+    width: 700px;
+    height: 50px;
+    background-color: #fff;
+    border: 3px solid #ccc;
+}
+.hero .sub-search:hover {
+    cursor: pointer;
+}
+.hero .search .text {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 2rem;
+    margin: auto -1340px;
+}
+.hero .awesome {
+    font-size: 30px;
+    margin: auto 660px;
+}
+.hero .years {
+    width: 100%;
+}
+.hero .years ul {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 160px;
+}
+.hero .years ul li {
+    padding: 20px;
+    border: 4px solid #000;
+    border-radius: 999px;
+    background: #fff;
+}
+.hero .years ul a {
+    font-size: 4rem;
+    color: #000;
+}
+.hero .years ul a:hover {
+    text-decoration: underline;
+}
