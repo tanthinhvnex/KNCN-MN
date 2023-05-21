@@ -1,1 +1,2 @@
-# KNCN-MN Giao diện đầu tiên tự làm mà không phải từ các khóa học online
+# KNCN-MN 
+Giao diện đầu tiên tự làm mà không xem video khóa học
